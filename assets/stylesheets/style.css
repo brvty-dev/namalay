@@ -62,9 +62,16 @@ footer a:hover {
     font-style: normal;
 }
 
+.lexend-giga-logo {
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* ------------------------ MEDIA QUERY ------------------------ */
 
-@media all and (min-width: 300px) and (max-width: 450px){
+@media all and (min-width: 200px) and (max-width: 450px){
     header img {
         width: 85vw;
     }
@@ -73,11 +80,17 @@ footer a:hover {
     }
     footer a {
         font-size: 6vw;
-}
+    }
 }
 
 @media all and (min-width: 451px) and (max-width: 700px){
     header img {
         width: 85vw;
+    }
+    main img {
+        width: 80vw;
+    }
+    footer a {
+        font-size: 6vw;
     }
 }
